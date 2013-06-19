@@ -40,6 +40,11 @@ map  <leader>t :TagbarToggle<CR>
 vnoremap < <gv
 vnoremap > >gv
 
+let NERDTreeIgnore=['\.vim$', '\~$', '\.pyc$', '\.swp$']
+let NERDTreeSortOrder=['^__\.py', '\/$', '*', '\.swp$', '\~$']
+let NERDTreeShowBookmarks=1
+let g:nerdtree_tabs_synchronize_view=1
+
 autocmd FileType php,python,perl,markdown set sw=4 ts=4 expandtab
 autocmd FileType javascript,html,css set sw=2 ts=2 expandtab
 autocmd FileType jade,smarty set sw=2 ts=2 expandtab
