@@ -36,7 +36,6 @@ if has("autocmd")
 endif
 
 map  <leader>e :NERDTreeTabsToggle<CR>
-map  <leader>t :TagbarToggle<CR>
 vnoremap < <gv
 vnoremap > >gv
 
