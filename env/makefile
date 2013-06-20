@@ -5,4 +5,4 @@ homebrew:
 
 packages:
 	echo "Install Packages"
-	brew install ack ctags tmux tree node nmap ncdu
+	brew install ack ctags cmake tmux tree node nmap ncdu
