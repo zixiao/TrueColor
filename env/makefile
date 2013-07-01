@@ -10,6 +10,11 @@ packages:
 	echo "Install Packages"
 	brew install ack ctags cmake tmux tree node nmap ncdu python
 
+z:
+	echo "">>~/.zshrc
+	echo ". $(ROOT)/packages/z/z.sh">>~/.zshrc
+	ln -s $(ROOT)/packages/z/z.1 /usr/local/share/man/man1/z.1
+
 ipython:
 	sudo easy_install readline ipython
 

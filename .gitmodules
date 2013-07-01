@@ -31,3 +31,6 @@
 [submodule "packages/vim/bundle/neocomplcache"]
 	path = packages/vim/bundle/neocomplcache
 	url = https://github.com/Shougo/neocomplcache
+[submodule "packages/z"]
+	path = packages/z
+	url = https://github.com/rupa/z
