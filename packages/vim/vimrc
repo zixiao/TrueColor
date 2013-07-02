@@ -36,6 +36,8 @@ if has("autocmd")
 endif
 
 map  <leader>e :NERDTreeTabsToggle<CR>
+map  <leader>t :MBEToggle<CR>
+map  <leader>f :MBEFocus<CR>
 vnoremap < <gv
 vnoremap > >gv
 
