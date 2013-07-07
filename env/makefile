@@ -48,10 +48,14 @@ zsh_config:
 	cp $(ROOT)/packages/zsh/zshrc ~/.zshrc
 	-[[ ! -e ~/.oh-my-zsh ]] && ln -s $(ROOT)/packages/zsh/oh-my-zsh ~/.oh-my-zsh
 
+node_config:
+	echo "">>~/.zshrc
+	echo "export PATH=\"$$PATH:/usr/local/share/npm/bin/\"">>~/.zshrc
+
 python: ipython pythonz virtualenv python_config
 	echo "Making Python"
 
-config: zsh_config tmux_config vim_config python_config
+config: zsh_config tmux_config vim_config python_config node_config
 	echo "Making Config"
 
 clean_bak:

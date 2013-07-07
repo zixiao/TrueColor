@@ -28,7 +28,6 @@ export LESS_TERMCAP_us=$'\E[01;33m'
 git config --global user.name "xiaomo"
 git config --global user.email "go.xiaomo@gmail.com"
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset - %C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
-git config --global alias.df "diff "
 git config --global alias.st "status -s"
 git config --global alias.mg "merge --no-ff"
 git config --global alias.co "checkout"
