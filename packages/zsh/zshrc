@@ -11,7 +11,7 @@ export EDITOR='vim'
 
 bindkey -e
 
-PROMPT='%~ $(git_prompt_info)%B%%%b '
+PROMPT='%~ (%M) $(git_prompt_info)%B%%%b '
 unsetopt correct_all
 
 # color the man book
