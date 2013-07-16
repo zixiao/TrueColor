@@ -61,5 +61,6 @@ config: zsh_config tmux_config vim_config python_config node_config
 clean_bak:
 	find . -name "*.bak" -depth 1 | xargs rm -f
 
-test:
-	echo $(ROOT)
+extra:
+	echo "">>~/.zshrc
+	echo ". $(ROOT)/extra/linux-alias">>~/.zshrc
