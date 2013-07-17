@@ -36,8 +36,9 @@ if has("autocmd")
 endif
 
 map  <leader>e :NERDTreeTabsToggle<CR>
-map  <leader>t :MBEToggle<CR>
+map  <leader>t :Tagbar<CR>
 map  <leader>f :MBEFocus<CR>
+map  <C-w>n    :tabnew<CR>
 vnoremap < <gv
 vnoremap > >gv
 
@@ -54,6 +55,7 @@ let g:neocomplcache_enable_at_startup=1
 let g:neocomplcache_enable_smart_case=1
 let g:neocomplcache_min_syntax_length=2
 let g:neocomplcache_enable_underbar_completion=1
+let g:miniBufExplorerAutoStart = 0
 
 autocmd FileType php,python,perl,markdown set sw=4 ts=4 expandtab
 autocmd FileType javascript,html,css set sw=2 ts=2 expandtab
