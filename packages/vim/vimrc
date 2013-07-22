@@ -69,3 +69,6 @@ command PlzW w !sudo tee %
 
 filetype plugin on
 set completeopt-=preview
+
+set cursorline
+highlight CursorLine cterm=underline
