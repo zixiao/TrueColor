@@ -39,6 +39,8 @@ map  <leader>e :NERDTreeTabsToggle<CR>
 map  <leader>t :Tagbar<CR>
 map  <leader>f :MBEFocus<CR>
 map  <C-w>n    :tabnew<CR>
+map  <C-S-Right> :tabnext<CR>
+map  <C-S-Left>  :tabprevious<CR>
 vnoremap < <gv
 vnoremap > >gv
 
