@@ -8,7 +8,7 @@ homebrew:
 
 packages:
 	echo "Install Packages"
-	brew install ack ctags cmake tmux tree node nmap ncdu python
+	brew install ack ctags cmake tmux tree node nmap ncdu python vim
 
 z:
 	echo "">>~/.zshrc
