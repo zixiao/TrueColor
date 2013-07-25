@@ -1,0 +1,11 @@
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset - %C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+	df = "diff "
+	st = status -s
+	mg = merge --no-ff
+	co = checkout
+	br = branch
+	reflog = reflog show master
+[user]
+	name = xiaomo
+	email = go.xiaomo@gmail.com
