@@ -28,8 +28,11 @@ set laststatus=2
 set expandtab
 set fencs=utf-8,cp936
 set backspace=indent,eol,start
+set keywordprg=:help
+set textwidth=78
+set colorcolumn=80
 
-colorscheme molokai-transparent
+colorscheme Tomorrow-Night-Bright
 
 if has("autocmd")
   au BufReadPost * if line("'\"")>1 && line("'\"")<=line("$") | exe "normal! g'\"" | endif
@@ -74,4 +77,3 @@ filetype plugin on
 set completeopt-=preview
 
 set cursorline
-highlight CursorLine cterm=none ctermbg=DarkBlue
