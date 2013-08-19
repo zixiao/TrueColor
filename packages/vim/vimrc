@@ -28,16 +28,22 @@ set laststatus=2
 set expandtab
 set fencs=utf-8,cp936
 set backspace=indent,eol,start
+set keywordprg=:help
+set textwidth=78
+set colorcolumn=80
 
-colorscheme molokai-transparent
+colorscheme Tomorrow-Night-Bright
 
 if has("autocmd")
   au BufReadPost * if line("'\"")>1 && line("'\"")<=line("$") | exe "normal! g'\"" | endif
 endif
 
+map  <leader>1 :tabn 1<CR>
+map  <leader>2 :tabn 2<CR>
+map  <leader>3 :tabn 3<CR>
+map  <leader>4 :tabn 4<CR>
 map  <leader>e :NERDTreeTabsToggle<CR>
 map  <leader>t :Tagbar<CR>
-map  <leader>f :MBEFocus<CR>
 map  <C-w>n    :tabnew<CR>
 map  <C-S-Right> :tabnext<CR>
 map  <C-S-Left>  :tabprevious<CR>
@@ -71,4 +77,3 @@ filetype plugin on
 set completeopt-=preview
 
 set cursorline
-highlight CursorLine cterm=none ctermbg=DarkBlue

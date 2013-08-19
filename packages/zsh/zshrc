@@ -10,7 +10,7 @@ export VISUAL='vim'
 export EDITOR='vim'
 
 bindkey -e
-PROMPT='%~ ‹%{$fg[cyan]%}%M%{$reset_color%}› $(git_prompt_info)%B%%%b '
+PROMPT='%~ ‹%{$fg[red]%}%M%{$reset_color%}› $(git_prompt_info)%B%%%b '
 unsetopt correct_all
 
 # color the man book
@@ -30,7 +30,7 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 git config --global alias.st "status -s"
 git config --global alias.mg "merge --no-ff"
 git config --global alias.co "checkout"
-git config --global alias.br "branch"
+git config --global alias.br "branch --color "
 git config --global alias.reflog "reflog show master"
 
 alias code_sync='git remote update;git fetch origin master;git merge master;'

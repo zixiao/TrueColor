@@ -4,7 +4,7 @@
 	st = status -s
 	mg = merge --no-ff
 	co = checkout
-	br = branch
+	br = "branch --color "
 	reflog = reflog show master
 [user]
 	name = xiaomo
