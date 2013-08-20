@@ -37,9 +37,12 @@
 [submodule "packages/vim/bundle/tagbar"]
 	path = packages/vim/bundle/tagbar
 	url = https://github.com/majutsushi/tagbar
-[submodule "packages/vim/bundle/pyflakes-vim"]
-	path = packages/vim/bundle/pyflakes-vim
-	url = https://github.com/kevinw/pyflakes-vim
 [submodule "packages/vim/bundle/vim-nerdcommenter"]
 	path = packages/vim/bundle/vim-nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter
+[submodule "packages/vim/bundle/python-mode"]
+	path = packages/vim/bundle/python-mode
+	url = https://github.com/klen/python-mode
+[submodule "packages/vim/bundle/vim-colors-solarized"]
+	path = packages/vim/bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized
