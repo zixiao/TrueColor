@@ -67,6 +67,7 @@ let g:miniBufExplorerAutoStart = 0
 let g:pymode_folding=0
 let g:pymode_virtualenv=1
 let g:pymode_rope=0
+let g:pymode_lint_ignore="E501"
 
 autocmd FileType php,python,perl,markdown set sw=4 ts=4 expandtab
 autocmd FileType javascript,html,css set sw=2 ts=2 expandtab

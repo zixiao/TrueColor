@@ -47,6 +47,7 @@ zsh_config:
 	-[[ -e ~/.zshrc ]] && mv ~/.zshrc ~/.zshrc.bak
 	cp $(ROOT)/packages/zsh/zshrc ~/.zshrc
 	-[[ ! -e ~/.oh-my-zsh ]] && ln -s $(ROOT)/packages/zsh/oh-my-zsh ~/.oh-my-zsh
+	ln -s $(ROOT)/Packages/zsh/auto-fu ~/.oh-my-zsh/auto-fu
 
 node_config:
 	echo "">>~/.zshrc

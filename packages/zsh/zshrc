@@ -33,4 +33,10 @@ git config --global alias.co "checkout"
 git config --global alias.br "branch --color "
 git config --global alias.reflog "reflog show master"
 
-alias code_sync='git remote update;git fetch origin master;git merge master;'
+if [ -f ~/.oh-my-zsh/auto-fu/auto-fu.plugin.zsh ]; then
+        source ~/.oh-my-zsh/auto-fu/auto-fu.plugin.zsh ; 
+    function zle-line-init () {
+        auto-fu-init
+    }
+    zle -N zle-line-init
+fi
