@@ -29,7 +29,6 @@ set expandtab
 set fencs=utf-8,cp936
 set backspace=indent,eol,start
 set keywordprg=:help
-set textwidth=78
 set colorcolumn=80
 
 colorscheme Tomorrow-Night-Bright
@@ -64,6 +63,10 @@ let g:neocomplcache_enable_smart_case=1
 let g:neocomplcache_min_syntax_length=2
 let g:neocomplcache_enable_underbar_completion=1
 let g:miniBufExplorerAutoStart = 0
+let g:pymode_folding=0
+let g:pymode_virtualenv=1
+let g:pymode_rope=0
+let g:pymode_lint_ignore="E501"
 
 autocmd FileType php,python,perl,markdown set sw=4 ts=4 expandtab
 autocmd FileType javascript,html,css set sw=2 ts=2 expandtab

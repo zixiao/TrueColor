@@ -1,16 +1,22 @@
 ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="bira"
+ZSH_THEME='bira'
 plugins=(osx brew git github svn pip python django coffee perl cpanm node npm redis-cli tmux)
 source $ZSH/oh-my-zsh.sh
 
 alias ls='ls -GF'
 alias tmux='TERM=screen-256color-bce tmux'
 
+alias dev2='ssh wangxiaomo@doubandev2'
+alias fili='ssh wangxiaomo@fili'
+alias balin='ssh wangxiaomo@balin'
+alias theoden='ssh wangxiaomo@theoden'
+
 export VISUAL='vim'
 export EDITOR='vim'
 
 bindkey -e
-PROMPT='%~ ‹%{$fg[red]%}%M%{$reset_color%}› $(git_prompt_info)%B%%%b '
+PROMPT='%~ ‹%{$fg[red]%}%M%{$reset_color%}› $(git_prompt_info)
+%B%%%b '
 unsetopt correct_all
 
 # color the man book
@@ -30,7 +36,5 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 git config --global alias.st "status -s"
 git config --global alias.mg "merge --no-ff"
 git config --global alias.co "checkout"
-git config --global alias.br "branch --color "
+git config --global alias.br "branch"
 git config --global alias.reflog "reflog show master"
-
-alias code_sync='git remote update;git fetch origin master;git merge master;'

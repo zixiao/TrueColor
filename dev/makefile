@@ -4,4 +4,3 @@ shire:
 			   "127.0.0.1\tbook.xiaomo.douban.com\n" \
 			   "127.0.0.1\tmovie.xiaomo.douban.com\n" \
 			   "127.0.0.1\tmusic.xiaomo.douban.com\n" >> /etc/hosts
-	@echo "Adding Douban Shire Hosts..."
