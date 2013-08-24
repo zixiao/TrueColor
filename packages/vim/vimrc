@@ -29,7 +29,6 @@ set expandtab
 set fencs=utf-8,cp936
 set backspace=indent,eol,start
 set keywordprg=:help
-set textwidth=78
 set colorcolumn=80
 
 colorscheme Tomorrow-Night-Bright
