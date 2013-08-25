@@ -45,7 +45,9 @@ vim_config:
 
 zsh_config:
 	-[[ -e ~/.zshrc ]] && mv ~/.zshrc ~/.zshrc.bak
+	-[[ -e ~/.zsh_theme ]] && mv ~/.zsh_theme ~/.zsh_theme.bak
 	cp $(ROOT)/packages/zsh/zshrc ~/.zshrc
+	cp $(ROOT)/packages/zsh/zsh_theme ~/.zsh_theme
 	-[[ ! -e ~/.oh-my-zsh ]] && ln -s $(ROOT)/packages/zsh/oh-my-zsh ~/.oh-my-zsh
 
 node_config:
