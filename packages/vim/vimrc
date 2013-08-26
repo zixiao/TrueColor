@@ -62,7 +62,10 @@ let g:neocomplcache_enable_at_startup=1
 let g:neocomplcache_enable_smart_case=1
 let g:neocomplcache_min_syntax_length=2
 let g:neocomplcache_enable_underbar_completion=1
-let g:miniBufExplorerAutoStart = 0
+let g:miniBufExplorerAutoStart=0
+let g:syntastic_check_on_open=0
+let g:syntastic_mode_map={ 'mode': 'passive' }
+
 
 autocmd FileType php,python,perl,markdown set sw=4 ts=4 expandtab
 autocmd FileType javascript,html,css set sw=2 ts=2 expandtab
