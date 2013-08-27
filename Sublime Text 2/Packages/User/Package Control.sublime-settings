@@ -1,0 +1,10 @@
+{
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"Package Control",
+		"Python PEP8 Autoformat",
+		"SublimeLinter",
+		"Terminal"
+	]
+}
