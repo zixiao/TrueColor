@@ -4,8 +4,8 @@
 	st = status -s
 	mg = merge --no-ff
 	co = checkout
-	br = "branch --color "
+	br = branch
 	reflog = reflog show master
 [user]
-	name = xiaomo
-	email = go.xiaomo@gmail.com
+	name = wangxiaomo
+	email = wangxiaomo@douban.com
