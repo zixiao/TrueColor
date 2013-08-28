@@ -1,0 +1,9 @@
+
+# Always color, even if piping to a another program
+--color
+
+# only search with case sensitivity if there is mixed case
+--smart-case
+
+# follow symlinks
+--follow
