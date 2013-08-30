@@ -52,3 +52,9 @@
 [submodule "packages/vim/bundle/syntastic"]
 	path = packages/vim/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic
+[submodule "packages/vim/bundle/vim-bundle-mako"]
+	path = packages/vim/bundle/vim-bundle-mako
+	url = https://github.com/sophacles/vim-bundle-mako
+[submodule "packages/vim/bundle/vim-slim"]
+	path = packages/vim/bundle/vim-slim
+	url = https://github.com/slim-template/vim-slim
