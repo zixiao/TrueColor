@@ -58,3 +58,6 @@
 [submodule "packages/vim/bundle/vim-slim"]
 	path = packages/vim/bundle/vim-slim
 	url = https://github.com/slim-template/vim-slim
+[submodule "packages/vim/bundle/vim-flake8"]
+	path = packages/vim/bundle/vim-flake8
+	url = https://github.com/nvie/vim-flake8
