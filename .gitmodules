@@ -37,9 +37,6 @@
 [submodule "packages/vim/bundle/vim-colors-solarized"]
 	path = packages/vim/bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized
-[submodule "packages/zsh/auto-fu"]
-	path = packages/zsh/auto-fu
-	url = https://github.com/hchbaw/auto-fu.zsh
 [submodule "packages/vim/bundle/python.vim"]
 	path = packages/vim/bundle/python.vim
 	url = https://github.com/vim-scripts/python.vim
@@ -52,3 +49,6 @@
 [submodule "packages/vim/bundle/vim-flake8"]
 	path = packages/vim/bundle/vim-flake8
 	url = https://github.com/nvie/vim-flake8
+[submodule "packages/zsh/auto-fu"]
+	path = packages/zsh/auto-fu
+	url = https://github.com/hchbaw/auto-fu.zsh
