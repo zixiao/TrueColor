@@ -63,8 +63,8 @@ let g:neocomplcache_enable_smart_case=1
 let g:neocomplcache_min_syntax_length=2
 let g:neocomplcache_enable_underbar_completion=1
 let g:miniBufExplorerAutoStart=0
-let g:syntastic_check_on_open=0
-let g:syntastic_mode_map={ 'mode': 'passive' }
+let g:flake8_ignore="E501,E128,W291,W293"
+let g:flake8_max_line_length=99
 
 
 autocmd FileType php,python,perl,markdown set sw=4 ts=4 expandtab
@@ -74,6 +74,7 @@ autocmd FileType vim set sw=2 ts=2 expandtab
 au BufNewFile,BufReadPost *.coffee setl sw=2 ts=2 expandtab
 
 command PlzW w !sudo tee %
+command Flake8 call Flake8()
 
 filetype plugin on
 set completeopt-=preview
