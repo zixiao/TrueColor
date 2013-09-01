@@ -3,6 +3,13 @@ plugins=(osx brew git github svn pip python django coffee perl cpanm node npm re
 source $ZSH/oh-my-zsh.sh
 source ~/.zsh_theme
 
+# auto-fu zcompiled
+# A=/path/to/auto-fu.zsh; (zsh -c "source $A ; auto-fu-zcompile $A ~/.zsh")
+source ~/.auto-fu.zsh/auto-fu.zsh; auto-fu-install
+zle-line-init () {auto-fu-init;}; zle -N zle-line-init
+zstyle ':completion:*' completer _oldlist _complete
+zle -N zle-keymap-select auto-fu-zle-keymap-select
+
 alias ls='ls -GF'
 alias tmux='TERM=screen-256color-bce tmux'
 
