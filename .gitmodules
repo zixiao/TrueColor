@@ -21,13 +21,7 @@
 	url = https://github.com/ap/vim-css-color
 [submodule "packages/vim/bundle/ack.vim"]
 	path = packages/vim/bundle/ack.vim
-	url = https://github.com/mileszs/ack.vim
-[submodule "packages/vim/bundle/funcoo.vim"]
-	path = packages/vim/bundle/funcoo.vim
-	url = https://github.com/rizzatti/funcoo.vim.git
-[submodule "packages/vim/bundle/dash.vim"]
-	path = packages/vim/bundle/dash.vim
-	url = https://github.com/rizzatti/dash.vim.git
+    url = https://github.com/mileszs/ack.vim.git
 [submodule "packages/vim/bundle/neocomplcache"]
 	path = packages/vim/bundle/neocomplcache
 	url = https://github.com/Shougo/neocomplcache
@@ -49,9 +43,6 @@
 [submodule "packages/vim/bundle/python.vim"]
 	path = packages/vim/bundle/python.vim
 	url = https://github.com/vim-scripts/python.vim
-[submodule "packages/vim/bundle/syntastic"]
-	path = packages/vim/bundle/syntastic
-	url = https://github.com/scrooloose/syntastic
 [submodule "packages/vim/bundle/vim-bundle-mako"]
 	path = packages/vim/bundle/vim-bundle-mako
 	url = https://github.com/sophacles/vim-bundle-mako
