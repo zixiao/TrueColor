@@ -10,3 +10,13 @@ alias anduin_f="mysql -handuin_m -P3315 -uanduin -pfulllink anduin"
 alias eag_f="mysql -heag_m -P3318 -uluzong -pfulllink luz_farm"
 alias bi_report_f="mysql -uluzong -pzoMcGcd7 -P4407 -h infobright report"
 alias algalon_f="mysql -u algalon -p6m1WagkqrC -hdae_m -P3320 algalon"
+
+alias dev2='ssh wangxiaomo@doubandev2'
+alias fili='ssh wangxiaomo@fili'
+alias balin='ssh wangxiaomo@balin'
+alias theoden='ssh wangxiaomo@theoden'
+
+alias shire-env='source ~/douban/Code/shire-env-osx64/bin/activate'
+alias makeweb='make web && make fillup_sns_site'
+alias maketail='make tail'
+alias restartcache='make restartcache'
