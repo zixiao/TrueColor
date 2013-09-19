@@ -19,6 +19,7 @@ set smartcase
 set incsearch
 
 set autowrite
+set autoread
 set hidden
 
 set sw=4
