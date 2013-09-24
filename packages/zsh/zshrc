@@ -7,16 +7,16 @@ source ~/.zsh_alias
 
 # A=/path/to/auto-fu.zsh; (zsh -c "source $A ; auto-fu-zcompile $A ~/.zsh")
 ## auto-fu.zsh stuff.
-source ~/.auto-fu.zsh/auto-fu.zsh
-{ . ~/.zsh/auto-fu; auto-fu-install; }
-zstyle ':auto-fu:highlight' input bold
-zstyle ':auto-fu:highlight' completion fg=black,bold
-zstyle ':auto-fu:highlight' completion/one fg=white,bold,underline
-zstyle ':auto-fu:var' postdisplay $''
-zstyle ':auto-fu:var' track-keymap-skip opp
-zle-line-init () {auto-fu-init;}; zle -N zle-line-init
-zstyle ':completion:*' completer _oldlist _complete
-zle -N zle-keymap-select auto-fu-zle-keymap-select
+#source ~/.auto-fu.zsh/auto-fu.zsh
+#{ . ~/.zsh/auto-fu; auto-fu-install; }
+#zstyle ':auto-fu:highlight' input bold
+#zstyle ':auto-fu:highlight' completion fg=black,bold
+#zstyle ':auto-fu:highlight' completion/one fg=white,bold,underline
+#zstyle ':auto-fu:var' postdisplay $''
+#zstyle ':auto-fu:var' track-keymap-skip opp
+#zle-line-init () {auto-fu-init;}; zle -N zle-line-init
+#zstyle ':completion:*' completer _oldlist _complete
+#zle -N zle-keymap-select auto-fu-zle-keymap-select
 
 alias ls='ls -GF'
 alias tmux='TERM=screen-256color-bce tmux'
@@ -41,8 +41,8 @@ export LESS_TERMCAP_so=$'\E[01;44;33m'
 export LESS_TERMCAP_ue=$'\E[0m'
 export LESS_TERMCAP_us=$'\E[01;33m'
 
-git config --global user.name "xiaomo"
-git config --global user.email "go.xiaomo@gmail.com"
+git config --global user.name "wangxiaomo"
+git config --global user.email "wangxiaomo@douban.com"
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset - %C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
 git config --global alias.st "status -s"
 git config --global alias.mg "merge --no-ff"
