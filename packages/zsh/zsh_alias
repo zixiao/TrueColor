@@ -20,3 +20,6 @@ alias shire-env='source ~/douban/Code/shire-env-osx64/bin/activate'
 alias makeweb='make web && make fillup_sns_site'
 alias maketail='make tail'
 alias restartcache='make restartcache'
+
+alias rivendell='mysql -ueye -psauron -P4406 -h balin rivendell'
+alias eye_orc='mysql --host="urk_b" --user="eye" --password="sauron" --port=3311 orc_farm'
