@@ -55,3 +55,6 @@
 [submodule "packages/zsh/auto-fu.zsh"]
 	path = packages/zsh/auto-fu.zsh
 	url = https://github.com/hchbaw/auto-fu.zsh
+[submodule "packages/vim/bundle/vim-javascript"]
+	path = packages/vim/bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript
