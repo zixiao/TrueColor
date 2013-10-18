@@ -58,3 +58,6 @@
 [submodule "packages/vim/bundle/vim-javascript"]
 	path = packages/vim/bundle/vim-javascript
 	url = https://github.com/pangloss/vim-javascript
+[submodule "packages/vim/bundle/syntastic"]
+	path = packages/vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic
