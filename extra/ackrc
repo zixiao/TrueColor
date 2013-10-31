@@ -5,5 +5,14 @@
 # only search with case sensitivity if there is mixed case
 --smart-case
 
-# follow symlinks
-#--follow
+# dont follow symlinks.
+
+--ignore-dir=node_modules/
+
+# make sure ack knows how to search common filetypes
+--type-add=css=scss
+--type-add=ruby=.haml,.rselm,.feature,.ru,.lock
+--type-set=coffeescript=.coffee
+--type-set=coffee=.coffee
+--type-set=jade=.jade
+--type-set=json=.json
