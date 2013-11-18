@@ -26,7 +26,7 @@ set sw=4
 set ts=4
 set t_Co=256
 set laststatus=2
-set foldmethod=marker
+set foldmethod=manual
 set expandtab
 set fencs=utf-8,cp936
 set backspace=indent,eol,start
