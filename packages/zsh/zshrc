@@ -48,3 +48,7 @@ git config --global alias.mg "merge --no-ff"
 git config --global alias.co "checkout"
 git config --global alias.br "branch"
 git config --global alias.reflog "reflog show master"
+
+export BASE16_SCHEME="monokai"
+export BASE16_SHELL="$HOME/.config/base16-shell/base16-$BASE16_SCHEME.dark.sh"
+[[ -s $BASE16_SHELL ]] && . $BASE16_SHELL

@@ -49,6 +49,7 @@ zsh_config:
 	cp $(ROOT)/packages/zsh/zshrc ~/.zshrc
 	cp $(ROOT)/packages/zsh/zsh_theme ~/.zsh_theme
 	-[[ ! -e ~/.oh-my-zsh ]] && ln -s $(ROOT)/packages/zsh/oh-my-zsh ~/.oh-my-zsh
+	mkdir -p ~/.config && ln -s $(ROOT)/packages/zsh/base16-shell ~/.config/base16-shell
 
 node_config:
 	echo "">>~/.zshrc
