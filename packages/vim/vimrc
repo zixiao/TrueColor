@@ -88,3 +88,6 @@ set cursorline
 
 hi SpellBad guifg=white guibg=red cterm=None ctermfg=white ctermbg=red
 hi SpellCap guifg=white guibg=red cterm=None ctermfg=white ctermbg=red
+
+
+
