@@ -1,8 +1,16 @@
 let g:netrw_dirhistmax  =10
+<<<<<<< HEAD
 let g:netrw_dirhist_cnt =6
+=======
+let g:netrw_dirhist_cnt =5
+>>>>>>> e6f0b6dc1a0078b034ed3cf60361e27d31805f22
 let g:netrw_dirhist_1='/Users/xiaomo/Library/Application Support/Google/Chrome/Default/Extensions/kggmaigniomialbjlabgfnjakaenmjam'
 let g:netrw_dirhist_2='/data/home/wangxiaomo/shire/corelib/utils'
 let g:netrw_dirhist_3='/data/home/wangxiaomo/ebi/.git'
 let g:netrw_dirhist_4='/data/home/wangxiaomo/shire/luzong/doumail'
+<<<<<<< HEAD
 let g:netrw_dirhist_5='/Users/yali/play/shangpin/templates'
 let g:netrw_dirhist_6='/Users/yali/.vim'
+=======
+let g:netrw_dirhist_5='/Users/wangxiaomo/Github/douban/shire/docs/user'
+>>>>>>> e6f0b6dc1a0078b034ed3cf60361e27d31805f22

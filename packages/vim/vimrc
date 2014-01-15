@@ -26,14 +26,17 @@ set sw=4
 set ts=4
 set t_Co=256
 set laststatus=2
-set foldmethod=marker
+set foldmethod=manual
 set expandtab
 set fencs=utf-8,cp936
 set backspace=indent,eol,start
 set keywordprg=:help
 set colorcolumn=80
+set guioptions=m
+set gfn=Monaco:h12
 
-colorscheme Tomorrow-Night-Bright
+set background=dark
+let base16colorspace=256
 
 if has("autocmd")
   au BufReadPost * if line("'\"")>1 && line("'\"")<=line("$") | exe "normal! g'\"" | endif
@@ -52,6 +55,7 @@ vnoremap > >gv
 let NERDTreeIgnore=['\.vim$', '\~$', '\.pyc$', '\.swp$']
 let NERDTreeSortOrder=['^__\.py', '\/$', '*', '\.swp$', '\~$']
 let NERDTreeShowBookmarks=1
+let NERDTreeChDirMode=0
 let g:nerdtree_tabs_synchronize_view=1
 let g:ctrlp_custom_ignore={
 \ 'dir': '\v[\/]\.(git|hg|svn)$',
@@ -65,9 +69,12 @@ let g:neocomplcache_enable_underbar_completion=1
 let g:miniBufExplorerAutoStart=0
 let g:flake8_ignore="E501,E128,W291,W293"
 let g:flake8_max_line_length=99
-let g:syntastic_python_checker = 'pyflakes'
+let g:syntastic_python_checkers = ['pyflakes']
 let g:syntastic_always_populate_loc_list=1
 let g:EasyMotion_leader_key = ',.'
+
+autocmd CursorMoved * exe printf('match IncSearch /\V\<%s\>/', escape(expand('<cword>'), '/\'))
+hi IncSearch ctermbg=240
 
 autocmd FileType php,python,perl,markdown set sw=4 ts=4 expandtab
 autocmd FileType javascript,html,css set sw=2 ts=2 expandtab
